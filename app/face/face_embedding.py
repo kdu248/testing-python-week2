@@ -13,5 +13,3 @@ def verify_embedding(embedding1: list, embedding2: list) -> bool:
     pass
     is_same_person = DeepFace.verify(embedding1, embedding2)["verified"]
     return is_same_person
-    is_same_person = DeepFace.verify(embedding1, embedding2)["verified"]
-    return is_same_person
